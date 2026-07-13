@@ -444,12 +444,61 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+/* Professor Chaos hero image */
 
+.hero-character {
+  display: grid;
+  place-items: center;
+  width: min(100%, 370px);
+  aspect-ratio: 1;
+  justify-self: center;
+}
+
+.hero-character img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow:
+    0 24px 70px rgba(0, 0, 0, 0.32),
+    0 0 70px rgba(84, 224, 194, 0.18);
+}
+
+
+/* Wide Professor Chaos project banner */
+
+.project-banner {
+  width: 100%;
+  margin-bottom: 58px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.24);
+}
+
+.project-banner img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 21 / 6;
+  object-fit: cover;
+}
 @media (max-width: 680px) {
-  .site-header {
-    align-items: flex-start;
-    gap: 12px;
+  .hero-character {
+    width: min(78vw, 330px);
   }
+
+  .project-banner {
+    margin-bottom: 38px;
+    border-radius: 18px;
+  }
+
+  .project-banner img {
+    aspect-ratio: 16 / 7;
+  }
+}
 
   nav {
     flex-wrap: wrap;
