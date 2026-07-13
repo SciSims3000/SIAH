@@ -1,2 +1,208 @@
-<p>Hello</p>
-</p>
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>News | Science in a Hurry</title>
+
+  <meta
+    name="description"
+    content="News, ideas and project updates from Science in a Hurry."
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .news-page {
+      width: min(calc(100% - 36px), 920px);
+      margin: 0 auto;
+      padding: 100px 0;
+    }
+
+    .news-page-header {
+      margin-bottom: 42px;
+    }
+
+    .news-page-header h1 {
+      margin-bottom: 20px;
+      font-size: clamp(3.2rem, 8vw, 6rem);
+    }
+
+    .news-page-header > p:last-child {
+      max-width: 700px;
+      color: var(--muted);
+      font-size: 1.2rem;
+    }
+
+    .news-article {
+      padding: clamp(28px, 5vw, 52px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+    }
+
+    .article-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 20px;
+      margin-bottom: 22px;
+      color: var(--teal);
+      font-size: 0.8rem;
+      font-weight: 850;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .news-article h2 {
+      margin-bottom: 28px;
+      font-size: clamp(2.2rem, 5vw, 3.7rem);
+    }
+
+    .news-article p {
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .idea-list {
+      display: grid;
+      gap: 12px;
+      margin: 32px 0;
+    }
+
+    .idea-list p {
+      margin: 0;
+      padding: 16px 18px;
+      border-left: 4px solid var(--teal);
+      border-radius: 0 12px 12px 0;
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text);
+      font-weight: 650;
+    }
+
+    .idea-list strong {
+      color: var(--teal);
+    }
+
+    .article-ending {
+      margin-top: 34px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+
+    @media (max-width: 600px) {
+      .news-page {
+        width: min(calc(100% - 24px), 920px);
+        padding-top: 70px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">Science in a Hurry</a>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#updates">Updates</a>
+      <a href="news.html">News</a>
+      <a href="index.html#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main" class="news-page">
+    <header class="news-page-header">
+      <p class="eyebrow">News and blog</p>
+      <h1>Behind the projects</h1>
+
+      <p>
+        Ideas, announcements and occasional reflections from Science in a
+        Hurry.
+      </p>
+    </header>
+
+    <article class="news-article">
+      <div class="article-meta">
+        <span>Welcome</span>
+        <time datetime="2026-07-13">13 July 2026</time>
+      </div>
+
+      <h2>Welcome to Science in a Hurry!</h2>
+
+      <p>
+        This started an eon ago as a way of making bespoke YouTube videos for
+        my classes. During COVID-19, it became a way of creating revision
+        materials.
+      </p>
+
+      <p>Then came AI.</p>
+
+      <p>
+        AI is many things, and in all honesty, the arguments for and against it
+        contain plenty of valid points and positions. For me, however, it became
+        a game-changer.
+      </p>
+
+      <p>
+        It allowed me to take all the little ideas that popped into my head and
+        turn them into functioning resources.
+      </p>
+
+      <div class="idea-list">
+        <p>
+          It would be cool to have a set of haiku poems for every lesson.
+          <strong>Done.</strong>
+        </p>
+
+        <p>
+          Create Learning Intentions and Success Criteria without cursing
+          pedagogical constructivists. <strong>Done.</strong>
+        </p>
+
+        <p>
+          Make a simulation showing how diseases spread during a zombie
+          apocalypse. <strong>Done.</strong>
+        </p>
+
+        <p>
+          Take an old extinction Flash game and make it live again.
+          <strong>Done.</strong>
+        </p>
+
+        <p>
+          Make a quiz platform that sends student results to a Google Sheet so
+          progress can be tracked. <strong>Nearly there.</strong>
+        </p>
+      </div>
+
+      <p>
+        I do not need to spend a fortune or hire a development team to create
+        these resources. They are built around the way I like to teach:
+        engage students first, and then take the learning deeper.
+      </p>
+
+      <p>
+        It does not always work, but when it does, it is magic.
+      </p>
+
+      <p class="article-ending">
+        Feel free to drop me a line if there is a resource you think might be
+        useful. It may take me less time to build than you think.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <strong>Science in a Hurry</strong>
+    <span>© <span id="year">2026</span></span>
+  </footer>
+
+  <script>
+    document.querySelector("#year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
