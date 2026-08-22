@@ -42,6 +42,20 @@
       background: var(--panel);
     }
 
+    .news-article + .news-article {
+      margin-top: 28px;
+    }
+
+    .article-hero {
+      display: block;
+      width: 100%;
+      margin: 0 0 32px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+
     .article-meta {
       display: flex;
       flex-wrap: wrap;
@@ -124,6 +138,59 @@
         Hurry.
       </p>
     </header>
+
+    <article class="news-article">
+      <div class="article-meta">
+        <span>Question Library</span>
+        <time datetime="2026-08-23">23 August 2026</time>
+      </div>
+
+      <h2>Building a question library for thinking, not just remembering</h2>
+
+      <img
+        class="article-hero"
+        src="assets/news/astra-question-library.png"
+        alt="Astra, a luminous AI assistant, working through stacks of science questions at a teacher's desk"
+        width="1536"
+        height="1024"
+      >
+
+      <p>
+        I have been building a large curated question bank for Investigating
+        Science and Working Scientifically. The aim is not simply to collect
+        more questions. It is to make it easier for students to practise the
+        kind of thinking that science examinations actually demand.
+      </p>
+
+      <p>
+        The library draws on Australian and international assessment sources.
+        Students can filter the collection to find questions that match what
+        they need to practise, while teachers can see richer metadata about
+        syllabus links, skills, question type, context and difficulty.
+      </p>
+
+      <p>
+        The important part for me is transfer. Students should not only
+        recognise knowledge in the form in which it was first taught; they
+        should be able to apply it when the wording, data or context is
+        unfamiliar. A broad, carefully tagged bank gives them repeated chances
+        to make that leap.
+      </p>
+
+      <p>
+        There are support guides for students and teachers, plus a guide to the
+        tabs and columns behind the library. The working sheets will stay in
+        Google Drive while I test the filters, metadata and classroom workflow.
+      </p>
+
+      <p class="article-ending">
+        Astra/ChatGPT did much of the heavy lifting in harvesting, tagging and
+        auditing the questions. I drove the pedagogical design: what belongs,
+        what the tags need to reveal, and how the finished library should help
+        students become more flexible scientific thinkers. That division of
+        labour has turned a very large idea into something I can actually use.
+      </p>
+    </article>
 
     <article class="news-article">
       <div class="article-meta">

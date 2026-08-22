@@ -33,6 +33,54 @@ function cleanCommitMessage(message) {
   return firstLine || "Repository update";
 }
 
+function getSydneyCalendarDay(dateString) {
+  const parts = new Intl.DateTimeFormat("en-AU", {
+    timeZone: "Australia/Sydney",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(new Date(dateString));
+
+  const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function describeDigest(commits) {
+  const multipleSources = new Set(commits.map((commit) => commit.source)).size > 1;
+  const highlights = commits.slice(0, 3).map((commit) =>
+    multipleSources ? `${commit.source}: ${commit.title}` : commit.title
+  );
+  const remaining = commits.length - highlights.length;
+
+  return `${highlights.join(" • ")}${remaining > 0 ? ` • Plus ${remaining} more.` : ""}`;
+}
+
+function groupCommitsByDay(commits) {
+  const days = new Map();
+
+  commits
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .forEach((commit) => {
+      const day = getSydneyCalendarDay(commit.date);
+      const group = days.get(day) || [];
+      group.push(commit);
+      days.set(day, group);
+    });
+
+  return [...days.values()].map((dayCommits) => {
+    const sources = [...new Set(dayCommits.map((commit) => commit.source))];
+    return {
+      source: sources.join(" + "),
+      title: `Daily development digest — ${dayCommits.length} update${dayCommits.length === 1 ? "" : "s"}`,
+      description: describeDigest(dayCommits),
+      date: dayCommits[0].date,
+      url: sources.length === 1
+        ? dayCommits[0].siteUrl
+        : "https://github.com/SciSims3000"
+    };
+  });
+}
+
 function createUpdateCard(update) {
   const article = document.createElement("article");
   article.className = "update-card";
@@ -63,7 +111,7 @@ function createUpdateCard(update) {
 async function loadGithubUpdates() {
   const requests = githubSources.map(async (project) => {
     const endpoint =
-      `https://api.github.com/repos/${project.repository}/commits?per_page=3`;
+      `https://api.github.com/repos/${project.repository}/commits?per_page=100`;
 
     const response = await fetch(endpoint, {
       headers: {
@@ -82,14 +130,16 @@ async function loadGithubUpdates() {
       title: cleanCommitMessage(item.commit.message),
       description: `Development update by ${item.commit.author.name}.`,
       date: item.commit.author.date,
-      url: item.html_url
+      url: item.html_url,
+      siteUrl: project.siteUrl
     }));
   });
 
   const results = await Promise.allSettled(requests);
-  return results.flatMap((result) =>
+  const commits = results.flatMap((result) =>
     result.status === "fulfilled" ? result.value : []
   );
+  return groupCommitsByDay(commits);
 }
 
 async function loadManualUpdates() {

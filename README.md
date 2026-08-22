@@ -44,12 +44,13 @@ The expected address is:
 
 ### Automatic updates
 
-`script.js` requests the three latest public commits from:
+`script.js` requests recent public commits from:
 
 - `SciSims3000/SciSims`
 - `SciSims3000/SB3K`
 
-The newest nine updates are shown.
+Commits from both repositories are grouped by Australia/Sydney calendar day.
+Each day appears as one concise digest card, and the newest nine cards are shown.
 
 ### Manual updates
 
