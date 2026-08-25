@@ -430,6 +430,128 @@ h3 {
   font-size: 0.9rem;
 }
 
+/* Audaxicity hub and long-form ideas */
+
+.content-page {
+  width: min(calc(100% - 36px), 920px);
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.content-page-header {
+  margin-bottom: 42px;
+}
+
+.content-page-header h1 {
+  margin-bottom: 20px;
+  font-size: clamp(3.2rem, 8vw, 6rem);
+}
+
+.content-page-header > p:last-child {
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 1.2rem;
+}
+
+.feature-panel,
+.longform {
+  padding: clamp(28px, 5vw, 52px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+
+.feature-panel {
+  border-top-color: var(--teal);
+}
+
+.feature-panel + .feature-panel,
+.feature-panel + .longform {
+  margin-top: 28px;
+}
+
+.feature-panel p,
+.longform p,
+.longform li {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.feature-panel .button {
+  margin-top: 8px;
+}
+
+.idea-card {
+  display: grid;
+  gap: 22px;
+}
+
+.idea-card h2 {
+  max-width: 780px;
+  font-size: clamp(2.2rem, 5vw, 3.7rem);
+}
+
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  color: var(--teal);
+  font-size: 0.8rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.longform h1 {
+  margin-bottom: 20px;
+  font-size: clamp(2.7rem, 7vw, 5.2rem);
+}
+
+.longform h2 {
+  margin-top: 58px;
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+}
+
+.longform h3 {
+  margin-top: 32px;
+}
+
+.longform .lede {
+  color: var(--text);
+  font-size: 1.3rem;
+}
+
+.pull-quote {
+  margin: 34px 0;
+  padding: 22px 24px;
+  border-left: 4px solid var(--teal);
+  border-radius: 0 14px 14px 0;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text) !important;
+  font-size: 1.25rem !important;
+  font-weight: 800;
+}
+
+.process-line {
+  overflow-wrap: anywhere;
+  color: var(--teal) !important;
+  font-weight: 800;
+}
+
+.article-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 34px 0 0;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.source-list a {
+  color: var(--teal);
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
@@ -512,7 +634,7 @@ h3 {
     width: 100%;
     margin-bottom: 34px;
   }
-}
+
   nav {
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -538,6 +660,11 @@ h3 {
   .updates-heading {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .content-page {
+    width: min(calc(100% - 24px), 920px);
+    padding-top: 70px;
   }
 }
 
