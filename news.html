@@ -6,10 +6,7 @@
 
   <title>News | Science in a Hurry</title>
 
-  <meta
-    name="description"
-    content="News, ideas and project updates from Science in a Hurry."
-  >
+  <meta name="description" content="News, ideas and project updates from Science in a Hurry.">
 
   <link rel="stylesheet" href="style.css">
 
@@ -20,20 +17,9 @@
       padding: 100px 0;
     }
 
-    .news-page-header {
-      margin-bottom: 42px;
-    }
-
-    .news-page-header h1 {
-      margin-bottom: 20px;
-      font-size: clamp(3.2rem, 8vw, 6rem);
-    }
-
-    .news-page-header > p:last-child {
-      max-width: 700px;
-      color: var(--muted);
-      font-size: 1.2rem;
-    }
+    .news-page-header { margin-bottom: 42px; }
+    .news-page-header h1 { margin-bottom: 20px; font-size: clamp(3.2rem, 8vw, 6rem); }
+    .news-page-header > p:last-child { max-width: 700px; color: var(--muted); font-size: 1.2rem; }
 
     .news-article {
       padding: clamp(28px, 5vw, 52px);
@@ -42,9 +28,7 @@
       background: var(--panel);
     }
 
-    .news-article + .news-article {
-      margin-top: 28px;
-    }
+    .news-article + .news-article { margin-top: 28px; }
 
     .article-hero {
       display: block;
@@ -68,22 +52,57 @@
       text-transform: uppercase;
     }
 
-    .news-article h2 {
-      margin-bottom: 28px;
-      font-size: clamp(2.2rem, 5vw, 3.7rem);
-    }
+    .news-article h2 { margin-bottom: 28px; font-size: clamp(2.2rem, 5vw, 3.7rem); }
+    .news-article h3 { margin: 38px 0 16px; font-size: clamp(1.35rem, 3vw, 1.8rem); }
+    .news-article p { color: var(--muted); font-size: 1.08rem; }
 
-    .news-article p {
-      color: var(--muted);
+    .article-quote {
+      margin: 30px 0;
+      padding: 24px 28px;
+      border-left: 4px solid var(--teal);
+      border-radius: 0 16px 16px 0;
+      background: rgba(255,255,255,.04);
+      color: var(--text);
       font-size: 1.08rem;
+      line-height: 1.65;
     }
 
-    .idea-list {
+    .article-quote cite {
+      display: block;
+      margin-top: 14px;
+      color: var(--teal);
+      font-style: normal;
+      font-size: .9rem;
+      font-weight: 750;
+    }
+
+    .source-note { font-size: .92rem !important; }
+
+    .article-links {
       display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
       gap: 12px;
-      margin: 32px 0;
+      margin-top: 22px;
     }
 
+    .article-links a {
+      display: block;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,.035);
+      color: var(--text);
+      font-weight: 750;
+      text-decoration: none;
+    }
+
+    .article-links a:hover,
+    .article-links a:focus-visible {
+      border-color: var(--teal);
+      color: var(--teal);
+    }
+
+    .idea-list { display: grid; gap: 12px; margin: 32px 0; }
     .idea-list p {
       margin: 0;
       padding: 16px 18px;
@@ -93,22 +112,11 @@
       color: var(--text);
       font-weight: 650;
     }
-
-    .idea-list strong {
-      color: var(--teal);
-    }
-
-    .article-ending {
-      margin-top: 34px;
-      padding-top: 28px;
-      border-top: 1px solid var(--line);
-    }
+    .idea-list strong { color: var(--teal); }
+    .article-ending { margin-top: 34px; padding-top: 28px; border-top: 1px solid var(--line); }
 
     @media (max-width: 600px) {
-      .news-page {
-        width: min(calc(100% - 24px), 920px);
-        padding-top: 70px;
-      }
+      .news-page { width: min(calc(100% - 24px), 920px); padding-top: 70px; }
     }
   </style>
 </head>
@@ -118,7 +126,6 @@
 
   <header class="site-header">
     <a class="brand" href="index.html">Science in a Hurry</a>
-
     <nav aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="index.html#projects">Projects</a>
@@ -133,144 +140,150 @@
     <header class="news-page-header">
       <p class="eyebrow">News and blog</p>
       <h1>Behind the projects</h1>
-
-      <p>
-        Ideas, announcements and occasional reflections from Science in a
-        Hurry.
-      </p>
+      <p>Ideas, announcements and occasional reflections from Science in a Hurry.</p>
     </header>
 
     <article class="news-article">
       <div class="article-meta">
-        <span>Question Library</span>
-        <time datetime="2026-08-23">23 August 2026</time>
+        <span>AI · Audaxicity</span>
+        <time datetime="2026-09-06">6 September 2026</time>
       </div>
 
-      <h2>Building a question library for thinking, not just remembering</h2>
+      <h2>AI is going to wreck education!</h2>
 
       <img
         class="article-hero"
-        src="assets/news/astra-question-library.png"
-        alt="Astra, a luminous AI assistant, working through stacks of science questions at a teacher's desk"
-        width="1536"
-        height="1024"
+        src="assets/news/ai-audaxical-mindset.svg"
+        alt="Old and new technology converging around a teacher's desk, from a vintage television and terminal to a modern laptop and AI network"
+        width="1600"
+        height="900"
       >
 
+      <p><strong>AI is making kids dumber. AI is causing the fall of societal values.</strong></p>
+
       <p>
-        I have been building a large curated question bank for Investigating
-        Science and Working Scientifically. The aim is not simply to collect
-        more questions. It is to make it easier for students to practise the
-        kind of thinking that science examinations actually demand.
+        I am not sure about the last one, but it usually creeps into any good moral panic. Any time there is a disruptive idea or technology, we tend to judge it through our pre-existing biases: <em>I grew up without a smartphone and I am all right.</em>
       </p>
 
       <p>
-        The library draws on Australian and international assessment sources.
-        Students can filter the collection to find questions that match what
-        they need to practise, while teachers can see richer metadata about
-        syllabus links, skills, question type, context and difficulty.
+        Firstly, that is a bit presumptive. It assumes that you, me, or anyone else is actually all right. I have definitely had my moments.
       </p>
 
       <p>
-        The important part for me is transfer. Students should not only
-        recognise knowledge in the form in which it was first taught; they
-        should be able to apply it when the wording, data or context is
-        unfamiliar. A broad, carefully tagged bank gives them repeated chances
-        to make that leap.
+        To show my age: I did not need computers to study. I did not need an app to know where people were. Actually, I probably did need that one. I may not be the best navigator. And kids are lazy these days — except they have always been lazy. They are kids.
+      </p>
+
+      <blockquote class="article-quote">
+        “Anything that is in the world when you’re born is normal and ordinary… Anything that’s invented between when you’re fifteen and thirty-five is new and exciting and revolutionary… Anything invented after you’re thirty-five is against the natural order of things.”
+        <cite>Douglas Adams, <em>The Salmon of Doubt</em></cite>
+      </blockquote>
+
+      <p class="source-note">
+        Adams first published the idea in his 1999 essay <em>How to Stop Worrying and Learn to Love the Internet</em>.
       </p>
 
       <p>
-        There are support guides for students and teachers, plus a guide to the
-        tabs and columns behind the library. The working sheets will stay in
-        Google Drive while I test the filters, metadata and classroom workflow.
+        By that rule, AI should be against the natural order of things for me. Maybe, in some respects, I was lucky not to have these tools when I was young. But I also grew up at a time when social status at school was partly based on how much skin peeled off after a weekend at the beach. Family disputes could occur because Dad wanted to watch the TV on the telly, and that telly had four channels. ADHD was the knob on the TV you used to get SBS on a Friday night when everyone else had gone to bed.
+      </p>
+
+      <h3>The tool is not the learning</h3>
+
+      <p>
+        As a teacher, technology has improved a little since my first school got a dial-up connection for the one computer room. It is now a tool I use constantly. However, if it fails, there is still enough crap in my brain to sustain some semblance of learning.
+      </p>
+
+      <p>
+        For me, AI has allowed me to do things that I thought were great ideas but simply did not have the time or technical skill to make happen.
+      </p>
+
+      <p>
+        As I type this on a MacBook — that is not bragging, it matters for the next bit — the machine is running a Terminal script that accesses old filmstrips from Archive.org, downloads high-quality TIFF files and compiles them into PDFs. I have done this manually. Each filmstrip is probably half an hour of downloading, sorting, compiling and then adding things in Acrobat.
+      </p>
+
+      <p>
+        Astra, my AI assistant, helped me find the strips, turn them into a useful list, and write the Python commands for macOS Terminal to download and compile the files. I still decided what was useful, what I wanted, and what the final resource needed to become. AI removed a large amount of mechanical work between the idea and the finished product.
+      </p>
+
+      <p>
+        The <a href="https://scisims3000.github.io/SciSims/">SciSims project</a> grew from much the same problem. I wanted simulations for ideas that were too niche to justify waiting for someone else to build them. I cannot code in the conventional sense. But the ideas, the classroom need, the feedback loop and the decisions are mine. AI makes the coding possible.
+      </p>
+
+      <p>
+        Another current project is a set of YouTube playlists with themes based around famous scientists. Again, I could do it manually. It is just enormously time intensive. AI turns a vague idea into something I can iterate on while I am still interested in it.
+      </p>
+
+      <h3>But what about struggle?</h3>
+
+      <p>
+        Of course, some people will say the struggle is the point, and that learning comes from cognitive discomfort. I agree with that in general. Productive struggle matters. But not every form of struggle is productive.
+      </p>
+
+      <p>
+        I scraped through school and university with an ADHD brain that was incapable of staying on task for more than about five minutes. That was my struggle. AI lets me turn some of that around. I can have multiple jobs moving at once and get a small endorphin hit as they are slowly ticked off. Maybe that is AI addiction, but I have been dependent on enough things in my life not to be overly worried about it.
+      </p>
+
+      <p>
+        As I prepare to move to a new school, AI is also helping me re-tool my pedagogical approach. My new boss is big on bringing solid evidence into what is done in the school and is getting me — forcing may be a little strong — to read books on leadership and reading teams. As I read, I take notes, build summaries alongside the reading, and then use Astra to help frame those notes into useful ideas and frameworks. It is not necessarily efficient, but I feel like I am developing some strong thinking for next year.
+      </p>
+
+      <p>
+        Maybe this is cheating. But I have written before about educators becoming martyrs to workload: <em>I work so hard, you must validate me.</em> Do not send me a 3:58 am email. Schedule it for 8 am.
+      </p>
+
+      <p>
+        I have always had ideas that I thought would be cool to have in class, and I have actioned plenty of them over the years. I now have tools that let me turn far more of those ideas into something real.
+      </p>
+
+      <p>
+        Some will fail. Some will be rubbish. But some will be awesome — and that is why I will keep using AI.
       </p>
 
       <p class="article-ending">
-        Astra/ChatGPT did much of the heavy lifting in harvesting, tagging and
-        auditing the questions. I drove the pedagogical design: what belongs,
-        what the tags need to reveal, and how the finished library should help
-        students become more flexible scientific thinkers. That division of
-        labour has turned a very large idea into something I can actually use.
+        That is the whole idea of embracing an <strong>audaxical mindset</strong>: be willing to try something new, learn from what happens, and not be paralysed by the possibility that it might fail.
       </p>
+
+      <h3>Related ASI work</h3>
+      <div class="article-links">
+        <a href="https://docs.google.com/document/d/1H2m_DYAEs-wzoOwwep5kKaXPjkmOop1IJHWzFXp_PDI/edit?usp=drivesdk">Audaxicity — Audaxic School Ideas</a>
+        <a href="https://docs.google.com/document/d/1LBJC4ebqmzBDVvAq_9199nXo9ahAdx0fDZcE0XZRP2o/edit?usp=drivesdk">Assessment in the Age of AI</a>
+        <a href="https://docs.google.com/document/d/1OMXHBUteObBwIIqg07s51EaxoSStUXIWI188kfO3gMo/edit?usp=drivesdk">Assessment in the world of AI</a>
+        <a href="https://docs.google.com/document/d/1G5LXLOUgpF1rT9rNSHAxmU0dmsOl8O9nLfiUX3m9m1Y/edit?usp=drivesdk">Audaxical Thinking</a>
+        <a href="https://docs.google.com/document/d/1Ar4ruKffBrlr0SaGqXUjEd3XlhhNnb5I1Wn_77b7z40/edit?usp=drivesdk">Scientists on Vinyl</a>
+      </div>
     </article>
 
     <article class="news-article">
-      <div class="article-meta">
-        <span>Welcome</span>
-        <time datetime="2026-07-13">13 July 2026</time>
-      </div>
+      <div class="article-meta"><span>Question Library</span><time datetime="2026-08-23">23 August 2026</time></div>
+      <h2>Building a question library for thinking, not just remembering</h2>
+      <img class="article-hero" src="assets/news/astra-question-library.png" alt="Astra, a luminous AI assistant, working through stacks of science questions at a teacher's desk" width="1536" height="1024">
+      <p>I have been building a large curated question bank for Investigating Science and Working Scientifically. The aim is not simply to collect more questions. It is to make it easier for students to practise the kind of thinking that science examinations actually demand.</p>
+      <p>The library draws on Australian and international assessment sources. Students can filter the collection to find questions that match what they need to practise, while teachers can see richer metadata about syllabus links, skills, question type, context and difficulty.</p>
+      <p>The important part for me is transfer. Students should not only recognise knowledge in the form in which it was first taught; they should be able to apply it when the wording, data or context is unfamiliar. A broad, carefully tagged bank gives them repeated chances to make that leap.</p>
+      <p>There are support guides for students and teachers, plus a guide to the tabs and columns behind the library. The working sheets will stay in Google Drive while I test the filters, metadata and classroom workflow.</p>
+      <p class="article-ending">Astra/ChatGPT did much of the heavy lifting in harvesting, tagging and auditing the questions. I drove the pedagogical design: what belongs, what the tags need to reveal, and how the finished library should help students become more flexible scientific thinkers. That division of labour has turned a very large idea into something I can actually use.</p>
+    </article>
 
+    <article class="news-article">
+      <div class="article-meta"><span>Welcome</span><time datetime="2026-07-13">13 July 2026</time></div>
       <h2>Welcome to Science in a Hurry!</h2>
-
-      <p>
-        This started an eon ago as a way of making bespoke YouTube videos for
-        my classes. During COVID-19, it became a way of creating revision
-        materials.
-      </p>
-
+      <p>This started an eon ago as a way of making bespoke YouTube videos for my classes. During COVID-19, it became a way of creating revision materials.</p>
       <p>Then came AI.</p>
-
-      <p>
-        AI is many things, and in all honesty, the arguments for and against it
-        contain plenty of valid points and positions. For me, however, it became
-        a game-changer.
-      </p>
-
-      <p>
-        It allowed me to take all the little ideas that popped into my head and
-        turn them into functioning resources.
-      </p>
-
+      <p>AI is many things, and in all honesty, the arguments for and against it contain plenty of valid points and positions. For me, however, it became a game-changer.</p>
+      <p>It allowed me to take all the little ideas that popped into my head and turn them into functioning resources.</p>
       <div class="idea-list">
-        <p>
-          It would be cool to have a set of haiku poems for every lesson.
-          <strong>Done.</strong>
-        </p>
-
-        <p>
-          Create Learning Intentions and Success Criteria without cursing
-          pedagogical constructivists. <strong>Done.</strong>
-        </p>
-
-        <p>
-          Make a simulation showing how diseases spread during a zombie
-          apocalypse. <strong>Done.</strong>
-        </p>
-
-        <p>
-          Take an old extinction Flash game and make it live again.
-          <strong>Done.</strong>
-        </p>
-
-        <p>
-          Make a quiz platform that sends student results to a Google Sheet so
-          progress can be tracked. <strong>Nearly there.</strong>
-        </p>
+        <p>It would be cool to have a set of haiku poems for every lesson. <strong>Done.</strong></p>
+        <p>Create Learning Intentions and Success Criteria without cursing pedagogical constructivists. <strong>Done.</strong></p>
+        <p>Make a simulation showing how diseases spread during a zombie apocalypse. <strong>Done.</strong></p>
+        <p>Take an old extinction Flash game and make it live again. <strong>Done.</strong></p>
+        <p>Make a quiz platform that sends student results to a Google Sheet so progress can be tracked. <strong>Nearly there.</strong></p>
       </div>
-
-      <p>
-        I do not need to spend a fortune or hire a development team to create
-        these resources. They are built around the way I like to teach:
-        engage students first, and then take the learning deeper.
-      </p>
-
-      <p>
-        It does not always work, but when it does, it is magic.
-      </p>
-
-      <p class="article-ending">
-        Feel free to drop me a line if there is a resource you think might be
-        useful. It may take me less time to build than you think.
-      </p>
+      <p>I do not need to spend a fortune or hire a development team to create these resources. They are built around the way I like to teach: engage students first, and then take the learning deeper.</p>
+      <p>It does not always work, but when it does, it is magic.</p>
+      <p class="article-ending">Feel free to drop me a line if there is a resource you think might be useful. It may take me less time to build than you think.</p>
     </article>
   </main>
 
-  <footer class="site-footer">
-    <strong>Science in a Hurry</strong>
-    <span>© <span id="year">2026</span></span>
-  </footer>
-
-  <script>
-    document.querySelector("#year").textContent = new Date().getFullYear();
-  </script>
+  <footer class="site-footer"><strong>Science in a Hurry</strong><span>© <span id="year">2026</span></span></footer>
+  <script>document.querySelector("#year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
