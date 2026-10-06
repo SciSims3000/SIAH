@@ -140,5 +140,328 @@
         "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/"
       }
     ]
+  },
+  {
+    "id": "saturn-decagon-longitudinal",
+    "title": "A new feature may be a new phenomenon — or a new view",
+    "trigger": "Image series / scientific event",
+    "bigIdea": "A single surprising image cannot tell us whether a feature is new, newly visible or newly recognisable. Longitudinal observations and known gaps in coverage matter.",
+    "prompt": "How can scientists tell whether Saturn’s decagon is new, newly visible, or simply newly recognisable?",
+    "evidenceMove": "Compare older Cassini and Hubble images with the recent Hubble sequence. Mark observation gaps, changes in viewpoint and changes in the feature itself before making a claim.",
+    "extension": "What additional observation would best distinguish a newly formed atmospheric wave from a feature that was previously hidden?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Astronomy", "Earth systems", "Models and evidence"],
+      "workingScientifically": ["Observation", "Temporal sampling", "Model revision"],
+      "sourceDate": "2026-09-02"
+    },
+    "sources": [
+      {
+        "label": "ESA — Hubble tracks new decagon encircling Saturn’s south pole",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_tracks_new_decagon_encircling_Saturn_s_south_pole"
+      }
+    ]
+  },
+  {
+    "id": "one-photo-three-systems",
+    "title": "One photograph can contain three different physical systems",
+    "trigger": "Astronomical photograph",
+    "bigIdea": "An image may combine the object being studied, the intervening atmosphere and the geometry of the viewpoint. Not every visible feature belongs to the same system.",
+    "prompt": "Which observations in this photograph tell us about the object itself, and which are consequences of viewing geometry or the atmosphere?",
+    "evidenceMove": "Annotate the erupting volcano, the Moon and the Belt of Venus separately. Classify each claim as a direct observation, an inference or an explanation involving another system.",
+    "extension": "What would change if the same scene were photographed from a different location, altitude or time?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Astronomy", "Earth systems", "Observation"],
+      "workingScientifically": ["Observation", "Inference", "Representativeness"],
+      "sourceDate": "2026-10-01"
+    },
+    "sources": [
+      {
+        "label": "NASA APOD — Harvest Moon with Belt of Venus and Erupting Mount Etna",
+        "url": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/"
+      }
+    ]
+  },
+  {
+    "id": "bogong-zero-result",
+    "title": "Zero recovered tags is still evidence",
+    "trigger": "News story / field investigation",
+    "bigIdea": "A null result does not automatically mean an experiment failed. Zero detections can be consistent with several explanations and can redirect the next measurement.",
+    "prompt": "What can scientists legitimately conclude when 14,000 tagged moths produce zero recovered tags?",
+    "evidenceMove": "Generate at least three explanations consistent with zero detections, then compare what each explanation predicts about population size, route, tag recovery and detection probability.",
+    "extension": "How could citizen-science observations, extra traps or weather data distinguish among the explanations?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Ecology", "Sampling", "Data interpretation"],
+      "workingScientifically": ["Observation", "Inference", "Sampling", "Uncertainty"],
+      "sourceDate": "2026-09-06"
+    },
+    "sources": [
+      {
+        "label": "ABC News — Scientists optimistic despite losing 14,000 tagged bogong moths",
+        "url": "https://www.abc.net.au/news/2026-09-06/bogong-moths-tagged-kosciuszko-national-park/107110974"
+      }
+    ]
+  },
+  {
+    "id": "robot-scientist-southern-ocean",
+    "title": "An autonomous vessel can measure — but can it do science?",
+    "trigger": "Scientific event / autonomous platform",
+    "bigIdea": "Automation can extend measurement into places and seasons that are difficult for people to reach, but measurement, question-setting, validation and explanation remain different jobs.",
+    "prompt": "An autonomous vessel collects Southern Ocean data for months at a time. Is it doing science?",
+    "evidenceMove": "Separate the work into what the vessel does—navigate, measure, record and sample—and what scientists do—formulate questions, validate instruments, analyse evidence and evaluate explanations.",
+    "extension": "Which part of the mission would be most vulnerable to an unnoticed sensor bias or missing data?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Ocean systems", "AI and science", "Automation"],
+      "workingScientifically": ["Question formulation", "Data interpretation", "Validation"],
+      "sourceDate": "2026-09-24"
+    },
+    "sources": [
+      {
+        "label": "CSIRO — Ocean drones set to brave the Southern Ocean for science",
+        "url": "https://www.csiro.au/en/news/All/News/2026/September/Ocean-drones-set-to-brave-the-Southern-Ocean-for-science"
+      }
+    ]
+  },
+  {
+    "id": "four-sciences-one-ship",
+    "title": "One voyage, four sciences, one evidence problem",
+    "trigger": "Field expedition / scientific event",
+    "bigIdea": "Real investigations do not keep Biology, Chemistry, Physics and Earth Science in separate boxes. Different disciplines can ask complementary questions of the same place and evidence.",
+    "prompt": "A research vessel reaches a seamount. What would a biologist, chemist, physicist and geologist each want to measure—and which question needs more than one discipline?",
+    "evidenceMove": "Design one measurement or question for each discipline, then draw the evidence links needed to explain a shared phenomenon such as a seamount, shipwreck or microplastic distribution.",
+    "extension": "What should the team do when two measurements appear to support different explanations?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Ocean systems", "Interdisciplinary science"],
+      "workingScientifically": ["Question formulation", "Data integration", "Evidence evaluation"],
+      "sourceDate": "2026-09-10"
+    },
+    "sources": [
+      {
+        "label": "CSIRO — First international CAPSTAN voyage takes students to the Pacific",
+        "url": "https://www.csiro.au/en/news/All/News/2026/September/Capstan-on-the-high-seas"
+      }
+    ]
+  },
+  {
+    "id": "ai-found-it-discovery",
+    "title": "AI found the pattern — did AI discover it?",
+    "trigger": "News story / scientific AI model",
+    "bigIdea": "Pattern detection, interpretation, validation and a scientific claim are different stages. A model can accelerate the first stage without completing the others.",
+    "prompt": "If an AI identifies a new lunar feature in decades of images, what evidence is needed before it becomes a scientific discovery?",
+    "evidenceMove": "Map the chain from detection to interpretation to independent validation to published claim. Ask what could create false positives at each step.",
+    "extension": "How could a second dataset, instrument or research team test the proposed feature?",
+    "tags": {
+      "stage": ["9–10", "11–12"],
+      "topic": ["Astronomy", "AI and science", "Models and evidence"],
+      "workingScientifically": ["Inference", "Evidence evaluation", "Validation"],
+      "sourceDate": "2026-09-10"
+    },
+    "sources": [
+      {
+        "label": "NASA — NASA, IBM Launch AI Foundation Model for Lunar Science",
+        "url": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/"
+      },
+      {
+        "label": "IBM — NASA–IBM Lunar Foundation Model",
+        "url": "https://newsroom.ibm.com/2026-09-10-ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration"
+      }
+    ]
+  },
+  {
+    "id": "image-processing-evidence",
+    "title": "Processing can reveal evidence without becoming the evidence",
+    "trigger": "Before-and-after image",
+    "bigIdea": "Calibration, stacking and artifact removal can make observations more useful, but the processing history remains part of the evidence that others need to evaluate.",
+    "prompt": "When does processing clarify an observation, and when might it make the evidence harder to trust?",
+    "evidenceMove": "Compare the raw and processed Andromeda images. Identify artifacts, legitimate corrections and transformations that should be disclosed so another observer can reproduce the result.",
+    "extension": "What changes if two teams process the same data with different pipelines?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Astronomy", "Data interpretation"],
+      "workingScientifically": ["Data processing", "Evidence evaluation", "Reproducibility"],
+      "sourceDate": "2026-09-27"
+    },
+    "sources": [
+      {
+        "label": "NASA APOD — Andromeda Before Photoshop",
+        "url": "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop/"
+      }
+    ]
+  },
+  {
+    "id": "jezero-history-update",
+    "title": "One rock can hold more than one history",
+    "trigger": "Planetary science result",
+    "bigIdea": "New evidence can complicate an explanation rather than simply replace it. A rock can preserve evidence of several environments and episodes through time.",
+    "prompt": "How should a model of Jezero’s history change when the same rock records several episodes of water alteration?",
+    "evidenceMove": "Build an initial lake-based explanation from orbital evidence, then add rover measurements showing groundwater, lake and later heated-water interactions. Revise the timeline rather than discarding every earlier clue.",
+    "extension": "What additional measurement would best constrain the order or age of the water events?",
+    "tags": {
+      "stage": ["9–10", "11–12"],
+      "topic": ["Planetary science", "Models and evidence"],
+      "workingScientifically": ["Inference", "Model revision", "Temporal reasoning"],
+      "sourceDate": "2026-09-21"
+    },
+    "sources": [
+      {
+        "label": "NASA — Complex water systems on early Mars",
+        "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/"
+      }
+    ]
+  },
+  {
+    "id": "find-leak-without-seeing-it",
+    "title": "An anomaly is evidence to investigate, not proof of a leak",
+    "trigger": "News story / smart-meter dataset",
+    "bigIdea": "Automated pattern detection can flag an unusual observation at scale, but the anomaly still needs interpretation and independent verification before it becomes a conclusion.",
+    "prompt": "A school meter records 350 L per hour between 1:00 am and 4:00 am for five nights. What can you infer—and what can you not conclude yet?",
+    "evidenceMove": "Separate the meter observation, plausible explanations and verification steps. Ask students to identify false positives such as cleaning, irrigation, faulty meters or unusual building use.",
+    "extension": "What extra sensor, comparison period or controlled test would reduce uncertainty most?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Earth systems", "AI and science", "Data interpretation"],
+      "workingScientifically": ["Observation", "Inference", "Validation", "Uncertainty"],
+      "sourceDate": "2026-09-23"
+    },
+    "sources": [
+      {
+        "label": "NSW Water — New AI leak detection technology",
+        "url": "https://www.water.nsw.gov.au/news/new-ai-leak-detection-technology-save-millions-litres-water"
+      }
+    ]
+  },
+  {
+    "id": "invisible-magnetic-fields",
+    "title": "Invisible does not mean unmeasurable",
+    "trigger": "Scientific map / astronomical result",
+    "bigIdea": "Scientists can map entities they cannot see directly by measuring how those entities alter something observable. The evidence is indirect but still testable.",
+    "prompt": "How can scientists map a magnetic field that nobody can see?",
+    "evidenceMove": "Use the idea that the polarisation of light twists as it travels through a magnetic field. Distinguish direct observation of galaxies from inference about the intervening field.",
+    "extension": "What assumptions, calibration steps or independent observations would make the inferred map more convincing?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Astronomy", "Models and evidence"],
+      "workingScientifically": ["Inference", "Validation", "Indirect measurement"],
+      "sourceDate": "2026-06-04"
+    },
+    "sources": [
+      {
+        "label": "CSIRO — Most detailed map of the Universe’s hidden magnetic fields",
+        "url": "https://www.csiro.au/en/news/All/News/2026/June/SPICE-RACS"
+      }
+    ]
+  },
+  {
+    "id": "pisa-headline-not-diagnosis",
+    "title": "A PISA headline is not an education diagnosis",
+    "trigger": "News story / assessment dataset",
+    "bigIdea": "A headline compresses several measures into a claim. Students need to inspect what was measured, how it was compared and what conclusion the data can support.",
+    "prompt": "Can a claim about Australia’s ‘worst-ever’ reading scores tell you that Australian students are worse at learning?",
+    "evidenceMove": "Separate the measure, sample, comparison group, uncertainty and interpretation. Compare subject scores with the separate PISA digital-world measures before accepting a broad conclusion.",
+    "extension": "What additional evidence would distinguish changes in reading performance from changes in what the assessment measures?",
+    "tags": {
+      "stage": ["9–10", "11–12"],
+      "topic": ["Assessment", "Data interpretation", "Media literacy"],
+      "workingScientifically": ["Evidence evaluation", "Operational definitions", "Correlation"],
+      "sourceDate": "2026-09 · PISA 2025 results"
+    },
+    "sources": [
+      {
+        "label": "OECD — PISA 2025 Results: Australia",
+        "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i-country-notes_2d4ff9ea-en/australia_20d725d6-en.html"
+      },
+      {
+        "label": "OECD — PISA 2025 Learning in the Digital World",
+        "url": "https://www.oecd.org/en/topics/sub-issues/learning-in-the-digital-world/pisa-2025-learning-in-the-digital-world.html"
+      }
+    ]
+  },
+  {
+    "id": "ai-goal-not-instruction",
+    "title": "A legitimate goal does not make every method legitimate",
+    "trigger": "News story / AI governance incident",
+    "bigIdea": "An agent can turn a legitimate objective into unanticipated actions. Evaluating an AI system therefore requires checking goals, constraints, tool access, logs and outcomes.",
+    "prompt": "If an AI is given a legitimate goal, is every method it chooses to achieve that goal legitimate?",
+    "evidenceMove": "Separate the instruction, goal, chosen action and violated constraint. Ask students to design a guardrail and an audit trail that would make the behaviour detectable.",
+    "extension": "Which matters more for trust: a successful outcome, a compliant method, or evidence that the system stayed within its constraints?",
+    "tags": {
+      "stage": ["9–10", "11–12"],
+      "topic": ["AI and governance", "Assessment"],
+      "workingScientifically": ["Evidence evaluation", "Validation", "Risk analysis"],
+      "sourceDate": "2026-09-24"
+    },
+    "sources": [
+      {
+        "label": "Australian Government PM&C — Rapid review into an AI-driven cyber incident",
+        "url": "https://www.pmc.gov.au/domestic-policy/rapid-review-australian-government-arrangements-ai-driven-cyber-incident"
+      }
+    ]
+  },
+  {
+    "id": "seasons-from-wrong-viewpoint",
+    "title": "Seasons can look different from the wrong viewpoint",
+    "trigger": "Satellite image series",
+    "bigIdea": "A stable three-dimensional system can appear to change in a surprising way when viewed from a distant position. Predictions help separate geometry from physical change.",
+    "prompt": "If Earth’s orbit causes the seasons, what should change in full-Earth images between the solstices and equinoxes?",
+    "evidenceMove": "Predict the apparent movement of continents and seasonal surface features, then compare those predictions with the DSCOVR EPIC image sequence and explain the role of axial tilt.",
+    "extension": "What could you estimate about Earth’s axial tilt from a longer sequence of full-disk images?",
+    "tags": {
+      "stage": ["7–10"],
+      "topic": ["Earth systems", "Astronomy"],
+      "workingScientifically": ["Prediction", "Observation", "Model revision"],
+      "sourceDate": "2026-09 · seasonal EPIC data"
+    },
+    "sources": [
+      {
+        "label": "NASA Earth Observatory — An Epic View of the Seasons",
+        "url": "https://science.nasa.gov/earth/earth-observatory/an-epic-view-of-the-seasons/"
+      }
+    ]
+  },
+  {
+    "id": "powder-before-printer",
+    "title": "Before the printer, engineer the powder",
+    "trigger": "News story / materials laboratory",
+    "bigIdea": "A machine’s performance depends on the material it processes. Particle size, shape and flow can matter before the printer settings are adjusted.",
+    "prompt": "What does a metal 3D printer need besides a design, a machine and heat?",
+    "evidenceMove": "Compare possible metal feedstocks—filings, dust, cubes and spheres—and predict how particle properties might affect flow, melting, defects and final strength.",
+    "extension": "Which material property would you measure first if a printed part repeatedly developed weak layers?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Materials", "Engineering"],
+      "workingScientifically": ["Prediction", "Variable control", "Evidence evaluation"],
+      "sourceDate": "2026-09"
+    },
+    "sources": [
+      {
+        "label": "CSIRO — From powder to possibility",
+        "url": "https://www.csiro.au/en/news/all/articles/2026/september/from-powder-to-possibility"
+      }
+    ]
+  },
+  {
+    "id": "faster-computation-changes-science",
+    "title": "A faster computer can change the questions",
+    "trigger": "Historical technology story",
+    "bigIdea": "A thousand-fold increase in computation does more than shorten old calculations. It can make new datasets, models and scientific questions possible.",
+    "prompt": "When a calculation becomes 1,000 times faster, what new science might become possible?",
+    "evidenceMove": "Estimate the new time for a 20-minute calculation, then compare ‘doing the same calculation faster’ with ‘asking a question that was previously impractical’.",
+    "extension": "Which modern scientific questions would still be impossible if computation stopped improving?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Computational science", "Physics", "Scale"],
+      "workingScientifically": ["Quantitative reasoning", "Scale", "Model revision"],
+      "sourceDate": "2026-09"
+    },
+    "sources": [
+      {
+        "label": "CSIRO — Building Australia’s first computer",
+        "url": "https://www.csiro.au/en/news/all/articles/2026/september/history-of-computing"
+      }
+    ]
   }
 ]
