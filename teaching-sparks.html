@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching Sparks | Science in a Hurry</title>
+  <meta name="description" content="A compact archive of worthwhile teaching ideas from Science in a Hurry briefings and project work.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">Science in a Hurry</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#updates">Updates</a>
+      <a href="news.html">News</a>
+      <a href="teaching-sparks.html" aria-current="page">Teaching Sparks</a>
+      <a href="audaxicity.html">Audaxicity</a>
+      <a href="index.html#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main" class="content-page sparks-page">
+    <header class="content-page-header">
+      <p class="eyebrow">A working archive</p>
+      <h1>Teaching Sparks</h1>
+      <p>
+        Compact, worthwhile teaching ideas generated during briefings and
+        project work. Each one starts with a real stimulus and ends with a
+        question worth putting in front of students.
+      </p>
+    </header>
+
+    <section class="spark-guide" aria-labelledby="spark-guide-heading">
+      <div>
+        <p class="eyebrow">The rule</p>
+        <h2 id="spark-guide-heading">Keep the spark, not the filler.</h2>
+      </div>
+      <p>
+        A Spark is not a complete resource or a production queue. It is a
+        strong teaching move that can be tried, discussed and improved. Sources
+        stay attached so the original evidence is always recoverable.
+      </p>
+    </section>
+
+    <section class="spark-library" aria-labelledby="spark-library-heading">
+      <div class="section-heading spark-library-heading">
+        <div>
+          <p class="eyebrow">Browse the archive</p>
+          <h2 id="spark-library-heading">Find a useful starting point</h2>
+        </div>
+        <p id="sparks-status" class="spark-status" role="status">Loading the Sparks…</p>
+      </div>
+
+      <form class="spark-filters" role="search" onsubmit="return false">
+        <label>
+          Search
+          <input id="spark-search" type="search" placeholder="Try evidence, sampling, AI…">
+        </label>
+        <label>
+          Stage
+          <select id="stage-filter"><option value="">All stages</option></select>
+        </label>
+        <label>
+          Topic
+          <select id="topic-filter"><option value="">All topics</option></select>
+        </label>
+        <label>
+          Working Scientifically
+          <select id="method-filter"><option value="">All moves</option></select>
+        </label>
+        <label>
+          Trigger
+          <select id="trigger-filter"><option value="">All triggers</option></select>
+        </label>
+        <button class="button secondary" id="clear-spark-filters" type="button">Clear filters</button>
+      </form>
+
+      <div class="sparks-grid" id="sparks-grid"></div>
+    </section>
+
+    <section class="spark-maintenance" aria-labelledby="spark-maintenance-heading">
+      <div>
+        <p class="eyebrow">For future additions</p>
+        <h2 id="spark-maintenance-heading">Append the idea, preserve the evidence.</h2>
+      </div>
+      <p>
+        New Sparks are appended to <code>data/teaching-sparks.json</code> using
+        the same fields shown here. Keep the entry compact, include a verified
+        original URL for each useful source, and add it only when the teaching
+        move is genuinely worth keeping.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <strong>Science in a Hurry</strong>
+    <span>© <span id="year">2026</span></span>
+  </footer>
+
+  <script src="sparks.js"></script>
+  <script>document.querySelector("#year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
