@@ -72,6 +72,21 @@ Use a date in this form:
 
 Remember to place a comma between entries, but not after the final entry.
 
+## Teaching Sparks
+
+`teaching-sparks.html` is a compact archive of worthwhile teaching ideas. The
+page loads its entries from `data/teaching-sparks.json`, so a new Spark can be
+appended without changing the page layout or filter code.
+
+Each entry should keep the same fields:
+
+- `title`, `trigger`, `bigIdea`, `prompt`, `evidenceMove` and `extension`
+- `tags.stage`, `tags.topic`, `tags.workingScientifically` and `tags.sourceDate`
+- `sources`, containing only original useful URLs that have been checked
+
+Add a Spark only when the idea is compact, teachable and worth keeping. This is
+an archive of strong teaching moves, not a queue of full-resource projects.
+
 ## Add the Teachers Pay Teachers link
 
 In `index.html`, find:
