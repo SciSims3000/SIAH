@@ -1,0 +1,144 @@
+[
+  {
+    "id": "auroral-oval-sampling",
+    "title": "A complete auroral oval is not a ground observation",
+    "trigger": "Image / scientific event",
+    "bigIdea": "An observation can support a global claim only when the viewpoint and sampling match the claim. A ground observer sees a local slice; a spacecraft can reveal the full oval.",
+    "prompt": "What does the full oval let you claim that a ground observer cannot — and what would still require another measurement?",
+    "evidenceMove": "Compare the full-oval ultraviolet view with a ground-view aurora photograph. Annotate direct observations, inferences and the parts of the system that remain unsampled.",
+    "extension": "If the oval changes over 45 hours but you sample one location for 10 minutes, which features could you miss?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Space physics", "Sampling"],
+      "workingScientifically": ["Observation", "Inference", "Representativeness"],
+      "sourceDate": "2026-10-06"
+    },
+    "sources": [
+      {
+        "label": "NASA APOD — A Complete Auroral Oval from SMILE",
+        "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/"
+      },
+      {
+        "label": "ESA — SMILE’s first ultraviolet footage",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Smile_s_first_ultraviolet_footage_shows_auroral_substorm"
+      }
+    ]
+  },
+  {
+    "id": "sombrero-model-revision",
+    "title": "The longer exposure changed the galaxy",
+    "trigger": "Deep-exposure image",
+    "bigIdea": "New evidence does more than make an old picture clearer. A longer exposure reveals faint structure around M104, giving students a reason to revise a model of the galaxy’s history.",
+    "prompt": "When the longer exposure reveals a halo and tidal streams, which part of your original model must change?",
+    "evidenceMove": "Pair the short-exposure and deep image. Record what becomes visible, what is inferred from it, and how the proposed collision-and-merger history changes.",
+    "extension": "What additional observation would help distinguish a merger history from another explanation for the faint structures?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Astronomy", "Models and evidence"],
+      "workingScientifically": ["Observation", "Inference", "Model revision"],
+      "sourceDate": "2026-10-05"
+    },
+    "sources": [
+      {
+        "label": "NASA APOD — M104: The Sombrero Galaxy’s Tidal Streams",
+        "url": "https://science.nasa.gov/image-article/apod-2026-october-5-m104-the-sombrero-galaxys-tidal-streams/"
+      },
+      {
+        "label": "NASA Webb — Sombrero Galaxy NIRCam image",
+        "url": "https://science.nasa.gov/asset/webb/sombrero-galaxy-nircam/"
+      }
+    ]
+  },
+  {
+    "id": "pacific-ctd-sample",
+    "title": "One CTD profile is not the Pacific Ocean",
+    "trigger": "Dataset / vertical profile",
+    "bigIdea": "A CTD cast can reveal temperature and salinity structure at one place and time. It cannot, by itself, establish the state of an entire ocean system.",
+    "prompt": "What can this one temperature–salinity–depth profile tell you — and what can it not tell you about the Pacific?",
+    "evidenceMove": "Plot temperature and salinity against depth. Mark claims supported by this cast, then list the extra spatial, temporal or repeat measurements needed for broader claims.",
+    "extension": "What sampling plan would distinguish a local feature from a regional Pacific pattern?",
+    "tags": {
+      "stage": ["9–10", "11–12"],
+      "topic": ["Ocean systems", "Sampling"],
+      "workingScientifically": ["Data interpretation", "Uncertainty", "Representativeness"],
+      "sourceDate": "2010 · ongoing dataset"
+    },
+    "sources": [
+      {
+        "label": "NOAA NCEI — Equatorial Pacific TAO CTD dataset",
+        "url": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:NDBC-TAO-CTD"
+      },
+      {
+        "label": "NOAA PSL — Vertical profile plots",
+        "url": "https://psl.noaa.gov/data/oceanwrit/profile/"
+      }
+    ]
+  },
+  {
+    "id": "ai-task-completion-learning",
+    "title": "Successful task completion is not yet validated learning",
+    "trigger": "News story / education review",
+    "bigIdea": "AI can improve engagement, confidence, task completion and the quality of a product without proving that the student can perform the underlying thinking independently.",
+    "prompt": "If AI helps you complete a task successfully, what evidence would show that you can perform the underlying thinking without it?",
+    "evidenceMove": "Compare an AI-assisted product with a cold response, an explanation of decisions and a transfer task. Classify which pieces show task completion and which show capability.",
+    "extension": "Which forms of assistance make learning more likely rather than merely producing a better answer?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["AI and learning", "Assessment"],
+      "workingScientifically": ["Evidence evaluation", "Validation", "Transfer"],
+      "sourceDate": "2026-09-03"
+    },
+    "sources": [
+      {
+        "label": "University of Sydney — GenAI and school learning review",
+        "url": "https://www.sydney.edu.au/news-opinion/news/2026/09/03/australia-lacks-evidence-on-genai-in-schools--landmark-global-re.html"
+      },
+      {
+        "label": "Barker Institute — Young people, learning and generative AI",
+        "url": "https://barker.institute/news/young-people-learning-and-generative-ai-a-rapid-literature-review-and-implications-for-prek-12-education/"
+      }
+    ]
+  },
+  {
+    "id": "satellite-observation-before-location",
+    "title": "Observe the satellite image before naming the place",
+    "trigger": "Image / remote-sensing puzzle",
+    "bigIdea": "Remote-sensing images become better evidence when students separate what is visible from what they infer. Identification is a conclusion, not the first observation.",
+    "prompt": "What can you observe in this image before you name the place?",
+    "evidenceMove": "Use three observations → two inferences → one question. Then inspect the image metadata or spectral bands and compare the evidence with the first guess.",
+    "extension": "What extra band, time point or ground measurement would reduce your uncertainty most?",
+    "tags": {
+      "stage": ["7–10"],
+      "topic": ["Earth observation", "Remote sensing"],
+      "workingScientifically": ["Observation", "Inference", "Uncertainty"],
+      "sourceDate": "2026-08-31"
+    },
+    "sources": [
+      {
+        "label": "NASA Earth Observatory — September 2026 Satellite Puzzler",
+        "url": "https://science.nasa.gov/earth/earth-observatory/september-2026-satellite-puzzler/"
+      }
+    ]
+  },
+  {
+    "id": "pacific-cyclone-snapshot",
+    "title": "One satellite snapshot is not a season",
+    "trigger": "Satellite image / scientific event",
+    "bigIdea": "A single image can show simultaneous systems, but a causal or seasonal claim needs a time series, comparison data and a model of the relevant Earth system.",
+    "prompt": "What does one satellite image show about the storms — and what would you need before claiming something about the season?",
+    "evidenceMove": "Annotate direct evidence in the image, then compare it with the acquisition time, storm records and seasonal context. Keep the image separate from the explanation built around it.",
+    "extension": "How could ocean temperature, wind shear and additional images test your explanation?",
+    "tags": {
+      "stage": ["7–10", "11–12"],
+      "topic": ["Earth systems", "Weather and climate"],
+      "workingScientifically": ["Temporal sampling", "Correlation", "Evidence evaluation"],
+      "sourceDate": "2026-09-04"
+    },
+    "sources": [
+      {
+        "label": "NASA Earth Observatory — A Trio of Tropical Cyclones in the Pacific",
+        "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/"
+      }
+    ]
+  }
+]
