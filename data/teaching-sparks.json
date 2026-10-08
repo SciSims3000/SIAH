@@ -1,5 +1,75 @@
 [
   {
+    "id": "model-prediction-is-not-historical-evidence",
+    "title": "A model can predict without proving the history",
+    "trigger": "Student investigation / inclined plane",
+    "bigIdea": "An ideal ramp model can quantify force, distance and work, but a successful physical prediction does not establish that a particular community used a particular historical construction method.",
+    "prompt": "What can we calculate about a ramp, and what separate evidence would we need to establish how it was actually used?",
+    "evidenceMove": "Calculate the ideal pulling force for the same load and rise on two ramp lengths. Sort statements into model predictions, measured observations and historical claims requiring independent sources.",
+    "extension": "Introduce friction. Which predictions change, and which historical questions remain unanswered?",
+    "tags": {
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Mechanics",
+        "Models and evidence"
+      ],
+      "workingScientifically": [
+        "Quantitative reasoning",
+        "Model limitations",
+        "Evidence evaluation"
+      ],
+      "sourceDate": "2026-10-07 · teaching application"
+    },
+    "sources": [
+      {
+        "label": "OpenStax Physics — Simple Machines",
+        "url": "https://openstax.org/books/physics/pages/9-3-simple-machines"
+      },
+      {
+        "label": "National Academies — Data and Evidence",
+        "url": "https://www.nationalacademies.org/read/11625/chapter/4"
+      }
+    ]
+  },
+  {
+    "id": "sciddle-clue-vs-conclusion",
+    "title": "A clue is not yet a conclusion",
+    "trigger": "Sciddles / laboratory logic puzzle",
+    "bigIdea": "A scientific conclusion must follow from evidence and explicit reasoning. A clue can constrain possible explanations without uniquely identifying the answer.",
+    "prompt": "Does this clue prove who used the microscope, or does it only rule out some possibilities?",
+    "evidenceMove": "Give teams four scientists, four benches and three clues. Ask them to record observed information, deductions and assumptions in different columns, then identify the extra clue needed for a unique solution.",
+    "extension": "Remove one clue from a completed grid. How many valid solutions remain, and what does that show about sufficient evidence?",
+    "tags": {
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Scientific reasoning",
+        "Logic puzzles"
+      ],
+      "workingScientifically": [
+        "Observation",
+        "Inference",
+        "Evidence evaluation"
+      ],
+      "sourceDate": "2026-10-08 · teaching application"
+    },
+    "sources": [
+      {
+        "label": "Royal Society of Chemistry — Tricky tracks: observation and inference",
+        "url": "https://edu.rsc.org/resources/tricky-tracks-observation-and-inference-in-science-11-14-years/4017168.article"
+      },
+      {
+        "label": "NASA — Introduction: Building Claims from Evidence",
+        "url": "https://mynasadata.larc.nasa.gov/lesson-plans/introduction-building-claims-evidence"
+      }
+    ]
+  },
+  {
     "id": "auroral-oval-sampling",
     "title": "A complete auroral oval is not a ground observation",
     "trigger": "Image / scientific event",
@@ -8,9 +78,19 @@
     "evidenceMove": "Compare the full-oval ultraviolet view with a ground-view aurora photograph. Annotate direct observations, inferences and the parts of the system that remain unsampled.",
     "extension": "If the oval changes over 45 hours but you sample one location for 10 minutes, which features could you miss?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Space physics", "Sampling"],
-      "workingScientifically": ["Observation", "Inference", "Representativeness"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Space physics",
+        "Sampling"
+      ],
+      "workingScientifically": [
+        "Observation",
+        "Inference",
+        "Representativeness"
+      ],
       "sourceDate": "2026-10-06"
     },
     "sources": [
@@ -33,9 +113,19 @@
     "evidenceMove": "Pair the short-exposure and deep image. Record what becomes visible, what is inferred from it, and how the proposed collision-and-merger history changes.",
     "extension": "What additional observation would help distinguish a merger history from another explanation for the faint structures?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Astronomy", "Models and evidence"],
-      "workingScientifically": ["Observation", "Inference", "Model revision"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Astronomy",
+        "Models and evidence"
+      ],
+      "workingScientifically": [
+        "Observation",
+        "Inference",
+        "Model revision"
+      ],
       "sourceDate": "2026-10-05"
     },
     "sources": [
@@ -58,9 +148,19 @@
     "evidenceMove": "Plot temperature and salinity against depth. Mark claims supported by this cast, then list the extra spatial, temporal or repeat measurements needed for broader claims.",
     "extension": "What sampling plan would distinguish a local feature from a regional Pacific pattern?",
     "tags": {
-      "stage": ["9–10", "11–12"],
-      "topic": ["Ocean systems", "Sampling"],
-      "workingScientifically": ["Data interpretation", "Uncertainty", "Representativeness"],
+      "stage": [
+        "9–10",
+        "11–12"
+      ],
+      "topic": [
+        "Ocean systems",
+        "Sampling"
+      ],
+      "workingScientifically": [
+        "Data interpretation",
+        "Uncertainty",
+        "Representativeness"
+      ],
       "sourceDate": "2010 · ongoing dataset"
     },
     "sources": [
@@ -83,9 +183,19 @@
     "evidenceMove": "Compare an AI-assisted product with a cold response, an explanation of decisions and a transfer task. Classify which pieces show task completion and which show capability.",
     "extension": "Which forms of assistance make learning more likely rather than merely producing a better answer?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["AI and learning", "Assessment"],
-      "workingScientifically": ["Evidence evaluation", "Validation", "Transfer"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "AI and learning",
+        "Assessment"
+      ],
+      "workingScientifically": [
+        "Evidence evaluation",
+        "Validation",
+        "Transfer"
+      ],
       "sourceDate": "2026-09-03"
     },
     "sources": [
@@ -108,9 +218,18 @@
     "evidenceMove": "Use three observations → two inferences → one question. Then inspect the image metadata or spectral bands and compare the evidence with the first guess.",
     "extension": "What extra band, time point or ground measurement would reduce your uncertainty most?",
     "tags": {
-      "stage": ["7–10"],
-      "topic": ["Earth observation", "Remote sensing"],
-      "workingScientifically": ["Observation", "Inference", "Uncertainty"],
+      "stage": [
+        "7–10"
+      ],
+      "topic": [
+        "Earth observation",
+        "Remote sensing"
+      ],
+      "workingScientifically": [
+        "Observation",
+        "Inference",
+        "Uncertainty"
+      ],
       "sourceDate": "2026-08-31"
     },
     "sources": [
@@ -129,9 +248,19 @@
     "evidenceMove": "Annotate direct evidence in the image, then compare it with the acquisition time, storm records and seasonal context. Keep the image separate from the explanation built around it.",
     "extension": "How could ocean temperature, wind shear and additional images test your explanation?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Earth systems", "Weather and climate"],
-      "workingScientifically": ["Temporal sampling", "Correlation", "Evidence evaluation"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Earth systems",
+        "Weather and climate"
+      ],
+      "workingScientifically": [
+        "Temporal sampling",
+        "Correlation",
+        "Evidence evaluation"
+      ],
       "sourceDate": "2026-09-04"
     },
     "sources": [
@@ -150,9 +279,20 @@
     "evidenceMove": "Compare older Cassini and Hubble images with the recent Hubble sequence. Mark observation gaps, changes in viewpoint and changes in the feature itself before making a claim.",
     "extension": "What additional observation would best distinguish a newly formed atmospheric wave from a feature that was previously hidden?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Astronomy", "Earth systems", "Models and evidence"],
-      "workingScientifically": ["Observation", "Temporal sampling", "Model revision"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Astronomy",
+        "Earth systems",
+        "Models and evidence"
+      ],
+      "workingScientifically": [
+        "Observation",
+        "Temporal sampling",
+        "Model revision"
+      ],
       "sourceDate": "2026-09-02"
     },
     "sources": [
@@ -171,9 +311,20 @@
     "evidenceMove": "Annotate the erupting volcano, the Moon and the Belt of Venus separately. Classify each claim as a direct observation, an inference or an explanation involving another system.",
     "extension": "What would change if the same scene were photographed from a different location, altitude or time?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Astronomy", "Earth systems", "Observation"],
-      "workingScientifically": ["Observation", "Inference", "Representativeness"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Astronomy",
+        "Earth systems",
+        "Observation"
+      ],
+      "workingScientifically": [
+        "Observation",
+        "Inference",
+        "Representativeness"
+      ],
       "sourceDate": "2026-10-01"
     },
     "sources": [
@@ -192,9 +343,21 @@
     "evidenceMove": "Generate at least three explanations consistent with zero detections, then compare what each explanation predicts about population size, route, tag recovery and detection probability.",
     "extension": "How could citizen-science observations, extra traps or weather data distinguish among the explanations?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Ecology", "Sampling", "Data interpretation"],
-      "workingScientifically": ["Observation", "Inference", "Sampling", "Uncertainty"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Ecology",
+        "Sampling",
+        "Data interpretation"
+      ],
+      "workingScientifically": [
+        "Observation",
+        "Inference",
+        "Sampling",
+        "Uncertainty"
+      ],
       "sourceDate": "2026-09-06"
     },
     "sources": [
@@ -213,9 +376,20 @@
     "evidenceMove": "Separate the work into what the vessel does—navigate, measure, record and sample—and what scientists do—formulate questions, validate instruments, analyse evidence and evaluate explanations.",
     "extension": "Which part of the mission would be most vulnerable to an unnoticed sensor bias or missing data?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Ocean systems", "AI and science", "Automation"],
-      "workingScientifically": ["Question formulation", "Data interpretation", "Validation"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Ocean systems",
+        "AI and science",
+        "Automation"
+      ],
+      "workingScientifically": [
+        "Question formulation",
+        "Data interpretation",
+        "Validation"
+      ],
       "sourceDate": "2026-09-24"
     },
     "sources": [
@@ -234,9 +408,19 @@
     "evidenceMove": "Design one measurement or question for each discipline, then draw the evidence links needed to explain a shared phenomenon such as a seamount, shipwreck or microplastic distribution.",
     "extension": "What should the team do when two measurements appear to support different explanations?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Ocean systems", "Interdisciplinary science"],
-      "workingScientifically": ["Question formulation", "Data integration", "Evidence evaluation"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Ocean systems",
+        "Interdisciplinary science"
+      ],
+      "workingScientifically": [
+        "Question formulation",
+        "Data integration",
+        "Evidence evaluation"
+      ],
       "sourceDate": "2026-09-10"
     },
     "sources": [
@@ -255,9 +439,20 @@
     "evidenceMove": "Map the chain from detection to interpretation to independent validation to published claim. Ask what could create false positives at each step.",
     "extension": "How could a second dataset, instrument or research team test the proposed feature?",
     "tags": {
-      "stage": ["9–10", "11–12"],
-      "topic": ["Astronomy", "AI and science", "Models and evidence"],
-      "workingScientifically": ["Inference", "Evidence evaluation", "Validation"],
+      "stage": [
+        "9–10",
+        "11–12"
+      ],
+      "topic": [
+        "Astronomy",
+        "AI and science",
+        "Models and evidence"
+      ],
+      "workingScientifically": [
+        "Inference",
+        "Evidence evaluation",
+        "Validation"
+      ],
       "sourceDate": "2026-09-10"
     },
     "sources": [
@@ -280,9 +475,19 @@
     "evidenceMove": "Compare the raw and processed Andromeda images. Identify artifacts, legitimate corrections and transformations that should be disclosed so another observer can reproduce the result.",
     "extension": "What changes if two teams process the same data with different pipelines?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Astronomy", "Data interpretation"],
-      "workingScientifically": ["Data processing", "Evidence evaluation", "Reproducibility"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Astronomy",
+        "Data interpretation"
+      ],
+      "workingScientifically": [
+        "Data processing",
+        "Evidence evaluation",
+        "Reproducibility"
+      ],
       "sourceDate": "2026-09-27"
     },
     "sources": [
@@ -301,9 +506,19 @@
     "evidenceMove": "Build an initial lake-based explanation from orbital evidence, then add rover measurements showing groundwater, lake and later heated-water interactions. Revise the timeline rather than discarding every earlier clue.",
     "extension": "What additional measurement would best constrain the order or age of the water events?",
     "tags": {
-      "stage": ["9–10", "11–12"],
-      "topic": ["Planetary science", "Models and evidence"],
-      "workingScientifically": ["Inference", "Model revision", "Temporal reasoning"],
+      "stage": [
+        "9–10",
+        "11–12"
+      ],
+      "topic": [
+        "Planetary science",
+        "Models and evidence"
+      ],
+      "workingScientifically": [
+        "Inference",
+        "Model revision",
+        "Temporal reasoning"
+      ],
       "sourceDate": "2026-09-21"
     },
     "sources": [
@@ -322,9 +537,21 @@
     "evidenceMove": "Separate the meter observation, plausible explanations and verification steps. Ask students to identify false positives such as cleaning, irrigation, faulty meters or unusual building use.",
     "extension": "What extra sensor, comparison period or controlled test would reduce uncertainty most?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Earth systems", "AI and science", "Data interpretation"],
-      "workingScientifically": ["Observation", "Inference", "Validation", "Uncertainty"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Earth systems",
+        "AI and science",
+        "Data interpretation"
+      ],
+      "workingScientifically": [
+        "Observation",
+        "Inference",
+        "Validation",
+        "Uncertainty"
+      ],
       "sourceDate": "2026-09-23"
     },
     "sources": [
@@ -343,9 +570,19 @@
     "evidenceMove": "Use the idea that the polarisation of light twists as it travels through a magnetic field. Distinguish direct observation of galaxies from inference about the intervening field.",
     "extension": "What assumptions, calibration steps or independent observations would make the inferred map more convincing?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Astronomy", "Models and evidence"],
-      "workingScientifically": ["Inference", "Validation", "Indirect measurement"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Astronomy",
+        "Models and evidence"
+      ],
+      "workingScientifically": [
+        "Inference",
+        "Validation",
+        "Indirect measurement"
+      ],
       "sourceDate": "2026-06-04"
     },
     "sources": [
@@ -364,9 +601,20 @@
     "evidenceMove": "Separate the measure, sample, comparison group, uncertainty and interpretation. Compare subject scores with the separate PISA digital-world measures before accepting a broad conclusion.",
     "extension": "What additional evidence would distinguish changes in reading performance from changes in what the assessment measures?",
     "tags": {
-      "stage": ["9–10", "11–12"],
-      "topic": ["Assessment", "Data interpretation", "Media literacy"],
-      "workingScientifically": ["Evidence evaluation", "Operational definitions", "Correlation"],
+      "stage": [
+        "9–10",
+        "11–12"
+      ],
+      "topic": [
+        "Assessment",
+        "Data interpretation",
+        "Media literacy"
+      ],
+      "workingScientifically": [
+        "Evidence evaluation",
+        "Operational definitions",
+        "Correlation"
+      ],
       "sourceDate": "2026-09 · PISA 2025 results"
     },
     "sources": [
@@ -389,9 +637,19 @@
     "evidenceMove": "Separate the instruction, goal, chosen action and violated constraint. Ask students to design a guardrail and an audit trail that would make the behaviour detectable.",
     "extension": "Which matters more for trust: a successful outcome, a compliant method, or evidence that the system stayed within its constraints?",
     "tags": {
-      "stage": ["9–10", "11–12"],
-      "topic": ["AI and governance", "Assessment"],
-      "workingScientifically": ["Evidence evaluation", "Validation", "Risk analysis"],
+      "stage": [
+        "9–10",
+        "11–12"
+      ],
+      "topic": [
+        "AI and governance",
+        "Assessment"
+      ],
+      "workingScientifically": [
+        "Evidence evaluation",
+        "Validation",
+        "Risk analysis"
+      ],
       "sourceDate": "2026-09-24"
     },
     "sources": [
@@ -410,9 +668,18 @@
     "evidenceMove": "Predict the apparent movement of continents and seasonal surface features, then compare those predictions with the DSCOVR EPIC image sequence and explain the role of axial tilt.",
     "extension": "What could you estimate about Earth’s axial tilt from a longer sequence of full-disk images?",
     "tags": {
-      "stage": ["7–10"],
-      "topic": ["Earth systems", "Astronomy"],
-      "workingScientifically": ["Prediction", "Observation", "Model revision"],
+      "stage": [
+        "7–10"
+      ],
+      "topic": [
+        "Earth systems",
+        "Astronomy"
+      ],
+      "workingScientifically": [
+        "Prediction",
+        "Observation",
+        "Model revision"
+      ],
       "sourceDate": "2026-09 · seasonal EPIC data"
     },
     "sources": [
@@ -431,9 +698,19 @@
     "evidenceMove": "Compare possible metal feedstocks—filings, dust, cubes and spheres—and predict how particle properties might affect flow, melting, defects and final strength.",
     "extension": "Which material property would you measure first if a printed part repeatedly developed weak layers?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Materials", "Engineering"],
-      "workingScientifically": ["Prediction", "Variable control", "Evidence evaluation"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Materials",
+        "Engineering"
+      ],
+      "workingScientifically": [
+        "Prediction",
+        "Variable control",
+        "Evidence evaluation"
+      ],
       "sourceDate": "2026-09"
     },
     "sources": [
@@ -452,9 +729,20 @@
     "evidenceMove": "Estimate the new time for a 20-minute calculation, then compare ‘doing the same calculation faster’ with ‘asking a question that was previously impractical’.",
     "extension": "Which modern scientific questions would still be impossible if computation stopped improving?",
     "tags": {
-      "stage": ["7–10", "11–12"],
-      "topic": ["Computational science", "Physics", "Scale"],
-      "workingScientifically": ["Quantitative reasoning", "Scale", "Model revision"],
+      "stage": [
+        "7–10",
+        "11–12"
+      ],
+      "topic": [
+        "Computational science",
+        "Physics",
+        "Scale"
+      ],
+      "workingScientifically": [
+        "Quantitative reasoning",
+        "Scale",
+        "Model revision"
+      ],
       "sourceDate": "2026-09"
     },
     "sources": [
