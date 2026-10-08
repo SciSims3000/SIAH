@@ -1,5 +1,42 @@
 [
   {
+    "id": "mars-cloud-the-model-could-not-make",
+    "title": "The cloud the model couldn't make",
+    "trigger": "Mars Express observations of the Arsia Mons elongated cloud and atmospheric modelling",
+    "bigIdea": "When a model repeatedly fails to reproduce an observation, it may be missing an important physical process. A better fit supports a hypothesis but does not prove it uniquely.",
+    "prompt": "If a simulation cannot reproduce a cloud we repeatedly observe, should scientists reject the observation or revise the model?",
+    "evidenceMove": "Compare spacecraft observations of the elongated cloud with model outputs. Identify what each model reproduces, what differs, and the physical process introduced to improve agreement.",
+    "extension": "What independent observations or measurements could distinguish homogeneous ice nucleation from alternative explanations?",
+    "tags": {
+      "stage": [
+        "9–10",
+        "11–12"
+      ],
+      "topic": [
+        "Scientific models",
+        "Planetary atmospheres",
+        "Mars",
+        "Evidence and inference"
+      ],
+      "workingScientifically": [
+        "Model evaluation",
+        "Evidence evaluation",
+        "Comparing observations and predictions"
+      ],
+      "sourceDate": "2026-10-09 · teaching application"
+    },
+    "sources": [
+      {
+        "label": "ESA — Mars Express and Arsia Mons cloud",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express"
+      },
+      {
+        "label": "ESA — Arsia Mons elongated cloud image archive",
+        "url": "https://www.esa.int/ESA_Multimedia/Search?SearchText=Arsia+Mons+cloud"
+      }
+    ]
+  },
+  {
     "id": "model-prediction-is-not-historical-evidence",
     "title": "A model can predict without proving the history",
     "trigger": "Student investigation / inclined plane",
